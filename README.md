@@ -1,30 +1,45 @@
-# console-atm-inheritance
-console-atm-inheritance is console based ATM machaine and a more complex version of [ConsoleATM](https://github.com/Tripl3R/ConsoleATM#consoleatm). This program has four classes, Account.java, SavingsAccount.java, ChequingAccount.java and lastly ATM.java. 
+# ConsoleATM
 
-## Class Description
-Account.java is the superclass that provides the ability for created accounts to create their IDs, set or access the balance, annual interest rate and their account type (savings or chequings).
+ConsoleATM is a simple console based ATM assignment that has two classes, Account and ATM. 
 
-SavingsAccount.java is one of the sublcasses of Account.java. This class cannot be overdrawn and has the interest rate of 3%. 
+Account class ->  Keeps track of customer information (customer name, balance, etc.), Perform transactions like depositing and withdrawing money from account
+              
+ATM class -> Is the console interface for the ATM where the two account IDs will be set up (101, 102) as well as the balance and the annual interest rate for each account. 
 
-ChequingAccount.java is another subclass of Account.java that can be overdrawn of a limit $500 and has the interest rate of 1%.
+## Withdraw Example
 
-ATM.java is the console interface the users will interact with to create an account, set a balance and preform any deposits or withdrawals. 
+Account Info 1 <br>
+![accountInfo1](https://user-images.githubusercontent.com/109467334/219714365-1ee0f80f-390d-4168-a140-60e87468bff5.PNG)
 
-## Demonstration
-In this demonstration, the first account created, 101 will have a savings account and the second account created, 102 will have a chequings account. 
+Account Info 2 <br>
+![accountInfo2](https://user-images.githubusercontent.com/109467334/219714509-aff8aa37-3d7c-4fd6-8fe7-5b859598afd0.PNG)
 
-### Account Creation
-![101 Creation](https://github.com/Tripl3R/console-atm-inheritance/blob/master/pictures/createaccount1.PNG?raw=true)
-![102 Creation](https://github.com/Tripl3R/console-atm-inheritance/blob/master/pictures/createaccount2.PNG?raw=true)
+<hr>
 
-### Account Info 
-![101 Account Info](https://github.com/Tripl3R/console-atm-inheritance/blob/master/pictures/accountInfo1.PNG?raw=true) ![102 Account Info](https://github.com/Tripl3R/console-atm-inheritance/blob/master/pictures/accountInfo2.PNG?raw=true)
+createaccount1 <br>
+![createaccount1](https://user-images.githubusercontent.com/109467334/219714870-ba047bca-b98e-4291-a420-2a1b34cc6c0c.PNG)
 
-### Withdraw
-![101 Withdraw](https://github.com/Tripl3R/console-atm-inheritance/blob/master/pictures/withdraw1.PNG?raw=true) ![102 Withdraw](https://github.com/Tripl3R/console-atm-inheritance/blob/master/pictures/withdraw2.PNG?raw=true)
+createaccount2 <br>
+![createaccount2](https://user-images.githubusercontent.com/109467334/219714955-25fc4edf-a45b-4c66-9f86-5b91550c3701.PNG)
 
-### Deposit
-![101 Deposit](https://github.com/Tripl3R/console-atm-inheritance/blob/master/pictures/deposit1.PNG?raw=true) ![102 Deposit](https://github.com/Tripl3R/console-atm-inheritance/blob/master/pictures/deposit2.PNG?raw=true)
+<hr>
 
-### End
-![101 Deposit](https://github.com/Tripl3R/console-atm-inheritance/blob/master/pictures/end.PNG?raw=true)
+deposit1 <br>
+![deposit1](https://user-images.githubusercontent.com/109467334/219715086-d8d76d56-54f2-479d-98f5-0cfb90f05a35.PNG)
+
+deposit2 <br>
+![deposit2](https://user-images.githubusercontent.com/109467334/219715162-7e8582a1-f6c8-4470-a194-3662dc9ac12b.PNG)
+
+<hr>
+
+end <br>
+![end](https://user-images.githubusercontent.com/109467334/219715233-0e747ea0-0294-46f5-ae81-8a6a559692d1.PNG)
+
+ <hr>
+ 
+ Withdraw1 <br>
+![withdraw1](https://user-images.githubusercontent.com/109467334/219715322-2d7ec80b-5c48-417c-8001-bf00bf4ebadf.PNG)
+
+Withdraw2 <br>
+![withdraw2](https://user-images.githubusercontent.com/109467334/219715455-70d7f279-5ee7-4047-8d98-02a2ab4635c0.PNG)
+
